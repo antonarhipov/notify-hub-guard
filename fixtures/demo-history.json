@@ -1,0 +1,56 @@
+[
+  {
+    "submissionId": "10000000-0000-0000-0000-000000000001",
+    "submittedAt": "2026-10-19T10:00:00Z",
+    "outcome": "ACCEPTED",
+    "resolvedChannel": "sms",
+    "payload": {
+      "recipient": "+15550100001",
+      "body": "Your autumn offer is ready. Visit our demo store today and save on your next order."
+    },
+    "attempts": [{"notificationId": "20000000-0000-0000-0000-000000000001"}]
+  },
+  {
+    "submissionId": "10000000-0000-0000-0000-000000000002",
+    "submittedAt": "2026-10-19T11:00:00Z",
+    "outcome": "ACCEPTED",
+    "resolvedChannel": "sms",
+    "payload": {
+      "recipient": "+15550100002",
+      "body": "Your autumn offer is ready. Visit our demo store today and save on your next order. 😀"
+    }
+  },
+  {
+    "submissionId": "10000000-0000-0000-0000-000000000003",
+    "submittedAt": "2026-10-19T11:01:00Z",
+    "outcome": "ACCEPTED",
+    "resolvedChannel": "sms",
+    "payload": {
+      "body": "Hello {{firstName}}, your order ${order.id} is ready."
+    }
+  },
+  {
+    "submissionId": "10000000-0000-0000-0000-000000000004",
+    "submittedAt": "2026-10-19T11:02:00Z",
+    "outcome": "FAILED",
+    "resolvedChannel": "email",
+    "payload": {
+      "subject": "Order {{orderId}} update",
+      "body": "Hello Alice, your order is ready."
+    }
+  },
+  {
+    "submissionId": "10000000-0000-0000-0000-000000000005",
+    "submittedAt": "2026-10-19T11:03:00Z",
+    "outcome": "REJECTED",
+    "resolvedChannel": null,
+    "payload": null
+  },
+  {
+    "submissionId": "10000000-0000-0000-0000-000000000006",
+    "submittedAt": "2026-10-19T11:04:00Z",
+    "outcome": "REJECTED",
+    "resolvedChannel": null,
+    "payload": {"channel": "sms", "body": 123}
+  }
+]

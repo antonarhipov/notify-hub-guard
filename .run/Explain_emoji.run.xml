@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Guard · Explain emoji" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+    <option name="command" value="run -- explain --input fixtures/demo-history.json --submission 10000000-0000-0000-0000-000000000002" />
+    <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+    <option name="channel" value="DEFAULT" />
+    <option name="allFeatures" value="false" />
+    <option name="emulateTerminal" value="false" />
+    <option name="backtrace" value="SHORT" />
+    <method v="2" />
+  </configuration>
+</component>

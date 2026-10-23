@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Guard · Java history audit" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+    <option name="command" value="run -- audit --url http://localhost:8080 --output audit.json" />
+    <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+    <option name="channel" value="DEFAULT" />
+    <option name="allFeatures" value="false" />
+    <option name="emulateTerminal" value="false" />
+    <option name="backtrace" value="SHORT" />
+    <method v="2" />
+  </configuration>
+</component>
